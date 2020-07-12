@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Touchpad properties
-xinput set-prop "DLLC6AD:00 06CB:75BF Touchpad" "Synaptics Circular Scrolling" 1
+xinput set-prop "DLLC6AD:00 06CB:75BF Touchpad" "Synaptics Scrolling Distance" -30, 30
 
 sxhkd &
 polybar --reload bspwm &
@@ -18,9 +18,9 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a Alacritty:Float_Term state=floating sticky=on
-bspc rule -a Alacritty:Alacritty state=pseudo_tiled sticky=on
+bspc rule -a Alacritty:Alacritty state=pseudo_tiled 
 
 
 
 wal --theme tempus_rift
-feh --bg-fill $HOME/Pictures/SolidBlack.png
+feh --bg-fill --randomize $HOME/Pictures/

@@ -10,9 +10,9 @@ colors:
   # Default colors
   primary:
     # hard contrast: background = '#1d2021'
-    background: '#282828'
+    background: '#1B1B1B'
     # soft contrast: background = '#32302f'
-    foreground: '#ebdbb2'
+    foreground: '#1B1B1B'
 
   # Normal colors
   normal:
@@ -57,7 +57,7 @@ font:
 
   size: 8.0
 
-background_opacity: 0.0
+background_opacity: 0.9
 
 
 key_bindings:
