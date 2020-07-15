@@ -6,6 +6,7 @@ xinput set-prop "DLLC6AD:00 06CB:75BF Touchpad" "Synaptics Scrolling Distance" -
 sxhkd &
 polybar --reload bspwm &
 compton &
+spotifyd
 
 bspc monitor -d I II III IV V 
 

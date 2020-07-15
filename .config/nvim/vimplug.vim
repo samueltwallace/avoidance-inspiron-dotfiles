@@ -65,6 +65,8 @@ set foldmethod=expr
 set foldexpr=vimtex#fold#level(v:lnum)
 set foldtext=vimtex#fold#text()
 
+let g:vimtex_viewer_general='zathura'
+
 " Initialize plugin system
 call plug#end()
 
