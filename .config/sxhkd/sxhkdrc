@@ -6,8 +6,8 @@
 super + Return
 	alacritty
 
-super + shift + f
-	alacritty --class Float_Term -d 100 10 
+super + shift + m
+	alacritty --class Float_Term -e spotify-tui
 
 # program launcher
 super + semicolon
