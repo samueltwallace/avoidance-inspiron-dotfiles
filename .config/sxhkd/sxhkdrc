@@ -167,15 +167,15 @@ XF86AudioLowerVolume
 XF86AudioMute  
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
 
-XF86AudioNext  
-	mpc next  
-
-XF86AudioPrev  
-	mpc prev  
-
-Pause
-	mpc toggle  
-
+# XF86AudioNext  
+# 	mpc next  
+# 
+# XF86AudioPrev  
+# 	mpc prev  
+# 
+# Pause
+# 	mpc toggle  
+# 
 
 
 # Insert a blank node
@@ -184,4 +184,4 @@ super + shift + b
 	bspc node -i
 
 Print
-	scrot -e "mv $f ~/Pictures/"
+	scrot -e "mv $f ~/"
