@@ -167,15 +167,15 @@ XF86AudioLowerVolume
 XF86AudioMute  
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
 
-# XF86AudioNext  
-# 	mpc next  
-# 
-# XF86AudioPrev  
-# 	mpc prev  
-# 
-# Pause
-# 	mpc toggle  
-# 
+XF86AudioNext  
+	playerctl next  
+
+XF86AudioPrev  
+	playerctl previous  
+
+Pause
+	playerctl play-pause
+ 
 
 
 # Insert a blank node
