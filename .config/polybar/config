@@ -37,11 +37,11 @@ alert = ${xrdb:color15:#bd2c40}
 
 [bar/bspwm]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 80%
+width = 100%
 height = 20
-offset-x = 10%
+;offset-x = 10%
 ;offset-y = 1%
-radius = 10.0
+radius = 1.0
 fixed-center = false
 
 background = ${colors.background}
