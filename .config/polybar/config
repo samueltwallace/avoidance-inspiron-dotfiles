@@ -65,7 +65,7 @@ font-2 = Hack:Style=Bold:size=10:anialias=false;0
 
 modules-left = bspwm 
 ;xwindow
-modules-center = xwindow player
+modules-center = xwindow
 modules-right = pulseaudio xkeyboard memory cpu wlan eth battery date powermenu
 
 tray-position = right

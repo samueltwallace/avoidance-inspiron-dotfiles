@@ -1,17 +1,17 @@
 let mapleader=" "
 
 " Leader Commands
-	nnoremap <Leader>b <c-g>u<Esc>[s1z=`]a<c-g>u "Fix last spelling error
-	nnoremap <Leader>cp \llc " compile latex
-	nnoremap <Leader>df <Plug>(coc-definition) " Jump to coc-definition
-	nnoremap <Leader>fi :FZF<cr> " open fuzzy-find file list
-	nnoremap <Leader>gi :G<cr> " Open git status
-	nnoremap <Leader>li :Lines<cr> "fuzzy find lines
-	nnoremap <Leader>rg :Rg<cr> " Ripgrep files in pwd
-	nnoremap <Leader>sp :split<cr>:FZF<cr> " split horizontally opening a fuzzy file finder
-	nnoremap <Leader>vs :vs<cr>:FZF<cr> " vertically split opening a fuzzy file finder
-	nnoremap <Leader>zc ggVGzC'' " Close all folds
-	nnoremap <Leader>zo ggVGzO'' " Open all folds
+	nnoremap <Leader>b <c-g>u<Esc>[s1z=`]a<c-g>u 
+	nnoremap <Leader>cp \llc 
+	nnoremap <Leader>df <Plug>(coc-definition) 
+	nnoremap <Leader>fi :FZF<cr> 
+	nnoremap <Leader>gi :G<cr> 
+	nnoremap <Leader>li :Lines<cr> 
+	nnoremap <Leader>rg :Rg<cr> 
+	nnoremap <Leader>sp :split<cr>:FZF<cr> 
+	nnoremap <Leader>vs :vs<cr>:FZF<cr> 
+	nnoremap <Leader>zc ggVGzC'' 
+	nnoremap <Leader>zo ggVGzO'' 
 
 "Window Resizing and Moving
 	nnoremap <C-l> <C-W>l

@@ -6,12 +6,12 @@
 super + Return
 	alacritty
 
-super + shift + m
-	alacritty --class Float_Term -e spotify-tui
-
 # program launcher
 super + semicolon
 	rofi -show run
+
+super + shift + e
+	$HOME/.config/rofi/ed.sh
 
 super + shift + z
 	$HOME/.config/rofi/pdf.sh
@@ -164,18 +164,27 @@ XF86AudioRaiseVolume
 XF86AudioLowerVolume  
 	pactl set-sink-volume @DEFAULT_SINK@ -5%
 
-XF86AudioMute  
-	pactl set-sink-mute @DEFAULT_SINK@ toggle
-
-XF86AudioNext  
-	playerctl next  
-
-XF86AudioPrev  
-	playerctl previous  
-
-Pause
-	playerctl play-pause
+# XF86AudioMute  
+# 	pactl set-sink-mute @DEFAULT_SINK@ toggle
+# 
+# XF86AudioNext  
+# 	playerctl next  
+# 
+# XF86AudioPrev  
+# 	playerctl previous  
+# 
+# Pause
+# 	playerctl play-pause
  
+
+super + shift + plus
+	bspc node focused -r 0.7
+
+super + shift + minus
+	bspc node focused -r 0.3
+
+super + equal
+	bspc node focused -E
 
 
 # Insert a blank node
