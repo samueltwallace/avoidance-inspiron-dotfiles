@@ -88,9 +88,9 @@ cursor-scroll = ns-resize
 
 [bar/bspwm2]
 monitor = ${env:MONITOR:HDMI1}
-width = 100%
+width = 50%
 height = 20
-;offset-x = 10%
+offset-x = 25%
 ;offset-y = 1%
 radius = 1.0
 fixed-center = false
@@ -116,7 +116,7 @@ font-2 = Hack:Style=Bold:size=10:anialias=false;0
 
 modules-left = bspwm 
 ;xwindow
-modules-center = xwindow
+;modules-center = xwindow
 modules-right = pulseaudio xkeyboard memory cpu wlan eth battery date powermenu
 
 tray-position = right

@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty
+	alacritty -d 100 20
 
 # program launcher
 super + semicolon
@@ -178,13 +178,13 @@ XF86AudioLowerVolume
  
 
 super + shift + plus
-	bspc node focused -r 0.7
+	bspc node -f @parent && bspc node focused -r 0.7 && bspc node -f @first
 
 super + shift + minus
-	bspc node focused -r 0.3
+	bspc node -f @parent && bspc node focused -r 0.3 && bspc node -f @first
 
 super + equal
-	bspc node focused -E
+	bspc node -f @parent && bspc node focused -E && bspc node -f @first
 
 
 # Insert a blank node
