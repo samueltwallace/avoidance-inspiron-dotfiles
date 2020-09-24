@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty -d 100 20
+	alacritty -d $((50 + $RANDOM % 100)) $((20 + $RANDOM % 40))
 
 # program launcher
 super + semicolon
