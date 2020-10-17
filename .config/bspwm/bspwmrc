@@ -27,4 +27,4 @@ bspc rule -a *:* state=pseudo_tiled
 bspc rule -a * -o split_ratio=0.7
 
 wal --theme base16-nord
-feh --bg-fill --randomize $HOME/Pictures/
+feh --bg-fill --randomize $(find $HOME/Pictures/**/*)
