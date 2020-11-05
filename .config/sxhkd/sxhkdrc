@@ -17,7 +17,7 @@ super + shift + z
 	$HOME/.config/rofi/pdf.sh
 
 super + shift + w
-	$HOME/.config/rofi/wifi.sh
+	wpa_gui
 
 super + shift + Return
 	firefox
