@@ -59,9 +59,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Hack:style=Medium:size=10:anialias=false;0
-font-1 = Hack:style=Medium:size=10:anialias=false;0
-font-2 = Hack:Style=Bold:size=10:anialias=false;0
+font-0 = Hack:style=Medium:size=10:antialias=true;0
+font-1 = Hack:style=Medium:size=10:antialias=true;0
+font-2 = Hack:Style=Bold:size=10:antialias=true;0
 
 modules-left = bspwm 
 ;xwindow
@@ -116,8 +116,8 @@ font-2 = Hack:Style=Bold:size=10:anialias=false;0
 
 modules-left = bspwm 
 ;xwindow
-;modules-center = xwindow
-modules-right = pulseaudio xkeyboard memory cpu wlan eth battery date powermenu
+modules-center = weather
+modules-right =  battery date 
 
 tray-position = right
 tray-padding = 2
@@ -489,7 +489,13 @@ margin-bottom = 5
 ;
 ;
 
-[module/player]
-type=custom/script
-exec=$HOME/.config/polybar/player.sh
-interval=5
+[module/weather]
+type = custom/script
+
+exec = $HOME/.config/polybar/weather.sh
+
+exec-if = ping -c 1 8.8.8.8
+
+interval = 1800
+
+click-left = "alacritty --class weather --hold -e $HOME/.config/polybar/weather-big.sh"
