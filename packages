@@ -1,4 +1,4 @@
-Sun Nov  8 20:07:20 CST 2020
+Sun Nov  8 23:01:28 CST 2020
 ii ImageMagick-7.0.10.35_1                     Package for display and interactive manipulation of images
 ii LuaJIT-2.1.0beta3_1                         Just-In-Time Compiler for Lua
 ii SDL2-2.0.12_1                               Simple DirectMedia Layer (version 2)
@@ -455,7 +455,6 @@ ii perl-URI-1.76_2                             Perl Uniform Resource Identifiers
 ii picom-8.2_1                                 Lightweight compositor for X11 (previously a compton fork)
 ii pinentry-1.1.0_6                            PIN or passphrase entry dialogs for GnuPG
 ii pixman-0.40.0_1                             Library of low-level pixel manipulation routines
-ii playerctl-2.2.1_1                           MPRIS command-line controller and library
 ii polkit-0.116_3                              Authorization Toolkit
 ii polybar-3.4.3_2                             Fast and easy-to-use status bar
 ii poppler-20.09.0_1                           PDF rendering library

@@ -14,3 +14,4 @@ Note that my vimrc is not here; it is in another repo [here](https://github.com/
 I use a laptop and a monitor at different resolutions, and so screenshots come out with a lot of blackspace on the lower resolution screen. So that's why there's black space on the left.
 
 ![Pic](/2020-09-20-132823_3286x1080_scrot.png)
+![Pic](/2020-11-08-225731_3286x1080_scrot.png)
