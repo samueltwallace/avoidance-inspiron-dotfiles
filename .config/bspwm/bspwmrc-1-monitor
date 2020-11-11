@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Touchpad properties
+xinput set-prop "DLLC6AD:00 06CB:75BF Touchpad" "Synaptics Scrolling Distance" -30, 30
+
+
+# xrandr --output HDMI1 --mode 1920x1080
+# xrandr --output HDMI1 --right-of eDP1
+
+sxhkd &
+polybar --reload bspwm &
+# polybar --reload bspwm2 &
+compton &
+
+bspc monitor -d I II III 
+# bspc monitor 0x00400004 -d IV V VI
+
+
+bspc config border_width        0 #2
+bspc config window_gap          0 #10
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a *:* state=pseudo_tiled 
+# bspc rule -a Alacritty:weather state=floating
+
+wal --theme base16-pico
+feh --bg-fill --randomize $(find $HOME/Pictures/**/*)
