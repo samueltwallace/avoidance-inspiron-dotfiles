@@ -7,7 +7,7 @@ xinput set-prop "DLLC6AD:00 06CB:75BF Touchpad" "Synaptics Scrolling Distance" -
 xrandr --output HDMI1 --mode 1920x1080
 xrandr --output HDMI1 --right-of eDP1
 
-sxhkd &
+sxhkd -m -1 &
 polybar --reload bspwm &
 polybar --reload bspwm2 &
 compton &

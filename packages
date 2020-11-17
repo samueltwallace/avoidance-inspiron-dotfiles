@@ -1,4 +1,4 @@
-Wed Nov 11 09:30:30 CST 2020
+Mon Nov 16 19:29:25 CST 2020
 ii ImageMagick-7.0.10.35_1                     Package for display and interactive manipulation of images
 ii LuaJIT-2.1.0beta3_1                         Just-In-Time Compiler for Lua
 ii SDL2-2.0.12_1                               Simple DirectMedia Layer (version 2)
@@ -76,10 +76,11 @@ ii f2fs-tools-1.14.0_1                         Tools for the Linux Flash-Friendl
 ii fdk-aac-2.0.1_1                             Fraunhofer FDK AAC codec library
 ii feh-3.5_1                                   Fast and light imlib2-based image viewer
 ii ffmpeg-4.3.1_4                              Decoding, encoding and streaming software
+ii fftw-3.3.8_2                                Library for computing the discrete Fourier transform (DFT)
 ii figlet-2.2.5_6                              Program for making large letters out of ordinary text
 ii file-5.39_1                                 File type identification utility
 ii findutils-4.7.0_1                           GNU Find Utilities
-ii firefox-82.0.2_1                            Mozilla Firefox web browser
+ii firefox-82.0.3_1                            Mozilla Firefox web browser
 ii font-adobe-100dpi-1.0.3_6                   Standard 100dpi Adobe PCF fonts
 ii font-adobe-75dpi-1.0.3_6                    Standard 75pi Adobe PCF fonts
 ii font-adobe-utopia-100dpi-1.0.4_6            100dpi Adobe Utopia PCF fonts
@@ -110,7 +111,7 @@ ii fontconfig-2.13.1_3                         Library for configuring and custo
 ii freetype-2.10.4_1                           Font rendering engine and library API
 ii fribidi-1.0.10_1                            Free Implementation of the Unicode Bidirectional Algorithm
 ii fuse-2.9.9_1                                Filesystem in Userspace
-ii fzf-0.24.2_1                                Command-line fuzzy finder
+ii fzf-0.24.3_1                                Command-line fuzzy finder
 ii gawk-5.1.0_1                                GNU awk utility
 ii gc-8.0.4_1                                  Garbage collector for C and C++
 ii gcc-9.3.0_7                                 GNU Compiler Collection
@@ -134,13 +135,13 @@ ii gnupg-1.4.23_3                              The GNU Privacy Guard
 ii gnupg2-2.2.23_1                             GNU Privacy Guard (2.x)
 ii gnutls-3.6.15_1                             GNU Transport Layer Security library
 ii graphite-1.3.14_1                           Reimplementation of the SIL Graphite text processing engine
-ii grep-3.5_1                                  GNU grep utility
+ii grep-3.6_1                                  GNU grep utility
 ii grub-2.04_3                                 GRand Unified Bootloader 2
 ii grub-x86_64-efi-2.04_3                      GRand Unified Bootloader 2 - x86_64 EFI support
 ii gsettings-desktop-schemas-3.38.0_1          Collection of GSettings schemas
 ii gsfonts-8.11_6                              Ghostscript standard Type1 fonts
 ii gtk+-2.24.32_3                              GTK+ toolkit (v2)
-ii gtk+3-3.24.22_1                             GTK+ toolkit (v3)
+ii gtk+3-3.24.23_1                             GTK+ toolkit (v3)
 ii gtk-update-icon-cache-2.24.32_3             GTK+ toolkit (v2) - The GTK+ update icon cache tool
 ii gzip-1.10_1                                 GNU compression utility (replacement for compress)
 ii harfbuzz-2.7.2_2                            OpenType text shaping engine
@@ -154,9 +155,9 @@ ii icu-67.1_1                                  Robust and fully-featured Unicode
 ii icu-libs-67.1_1                             Robust and fully-featured Unicode libraries - shared libs
 ii ilmbase-2.4.2_2                             Base libraries from ILM for OpenEXR
 ii imlib2-1.7.0_2                              Image manipulation library
-ii intel-ucode-20200616_1                      Microcode update files for Intel CPUs
+ii intel-ucode-20201110_1                      Microcode update files for Intel CPUs
 ii iproute2-5.9.0_2                            IP Routing Utilities
-ii iptables-1.8.5_1                            Linux IPv[46] packet filtering ruleset
+ii iptables-1.8.6_2                            Linux IPv[46] packet filtering ruleset
 ii iputils-20190709_3                          Useful utilities for Linux networking (including ping)
 ii ipw2100-firmware-1.3_6                      Firmware for the Intel PRO/Wireless 2100 wifi cards
 ii ipw2200-firmware-3.1_6                      Firmware for the Intel PRO/Wireless 2200BG wifi cards
@@ -165,7 +166,7 @@ ii iso-codes-4.5.0_2                           List of country, language and cur
 ii iw-5.9_1                                    Utility for nl80211 based CLI configuration of wireless devices
 ii jansson-2.13.1_1                            Library for encoding, decoding and manipulating JSON data
 ii json-c-0.15_1                               JSON implementation in C
-ii json-glib-1.4.4_3                           JSON parser for GLib-based libraries and applications
+ii json-glib-1.6.0_1                           JSON parser for GLib-based libraries and applications
 ii jsoncpp-1.9.4_1                             A JSON implementation in C++
 ii kbd-2.3.0_2                                 Linux keyboard utilities
 ii kbd-data-2.3.0_2                            Linux keyboard utilities - keymaps, console fonts and unicode maps
@@ -265,7 +266,7 @@ ii libgpg-error-1.39_1                         Library for error values used by 
 ii libgpgme-1.14.0_1                           GnuPG Made Easy - library
 ii libgs-9.53.3_2                              Interpreter for the PostScript language - runtime shared library
 ii libgudev-233_1                              Library providing GObject bindings for libudev
-ii libgusb-0.3.4_1                             GLib wrapper around libusb1
+ii libgusb-0.3.5_1                             GLib wrapper around libusb1
 ii libharfbuzz-2.7.2_2                         OpenType text shaping engine - runtime library
 ii libid3tag-0.15.1b_8                         ID3 tag library, part of MAD (MPEG Audio Decoder)
 ii libidn2-2.3.0_1                             Internationalized string handling library
@@ -551,7 +552,7 @@ ii x265-3.4_1                                  Open Source H.265/HEVC video enco
 ii xauth-1.1_1                                 X authentication utility
 ii xbacklight-1.2.3_1                          Adjust backlight brightness using RandR extension
 ii xbps-0.59.1_2                               XBPS package system utilities
-ii xbps-triggers-0.117_1                       XBPS triggers for Void Linux
+ii xbps-triggers-0.118_1                       XBPS triggers for Void Linux
 ii xcalc-1.1.0_1                               Scientific calculator for X
 ii xcb-util-0.4.0_2                            XCB utilities library
 ii xcb-util-cursor-0.1.3_1                     XCB cursor library (libxcursor port)
@@ -582,7 +583,7 @@ ii xf86-video-dummy-0.3.8_3                    Xorg dummy video driver
 ii xf86-video-fbdev-0.5.0_1                    Xorg framebuffer video driver
 ii xf86-video-intel-2.99.917.20200515_1        Xorg DDX Intel video driver
 ii xf86-video-nouveau-1.0.16_2                 Xorg opensource NVIDIA video driver
-ii xf86-video-vesa-2.4.0_2                     Xorg VESA video driver
+ii xf86-video-vesa-2.5.0_1                     Xorg VESA video driver
 ii xf86-video-vmware-13.3.0_2                  Modular Xorg VMware virtual video driver
 ii xfontsel-1.0.6_1                            X font selector
 ii xfsprogs-5.9.0_1                            Utilities for managing the XFS filesystem
