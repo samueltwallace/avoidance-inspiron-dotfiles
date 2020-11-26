@@ -28,3 +28,6 @@ bspc rule -a Alacritty:weather state=floating
 
 wal --theme base16-pico
 feh --bg-fill --randomize $(find $HOME/Pictures/**/*)
+
+cd $HOME/start-page/
+bundle exec jekyll serve . &
