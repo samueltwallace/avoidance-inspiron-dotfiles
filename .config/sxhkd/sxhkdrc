@@ -32,7 +32,7 @@ super + shift + c
 
 # quit/restart bspwm
 super + Escape
-	i3lock-fancy 
+	i3lock -i $HOME/lockscreen.png
 
 super + asciitilde
 	bspc quit

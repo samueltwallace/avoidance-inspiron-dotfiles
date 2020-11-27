@@ -1,4 +1,4 @@
-Fri Nov 27 11:31:34 CST 2020
+Fri Nov 27 12:42:15 CST 2020
 ii ImageMagick-7.0.10.43_1                     Package for display and interactive manipulation of images
 ii LuaJIT-2.1.0beta3_1                         Just-In-Time Compiler for Lua
 ii SDL2-2.0.12_1                               Simple DirectMedia Layer (version 2)
@@ -142,7 +142,6 @@ ii harfbuzz-2.7.2_2                            OpenType text shaping engine
 ii hicolor-icon-theme-0.17_2                   Standard icon theme called hicolor
 ii hwids-20200813.1_2                          Hardware Identification Databases
 ii i3lock-2.13_1                               Improved screenlocker based upon XCB and PAM
-ii i3lock-fancy-0.2_2                          Fancy lockscreen using i3lock
 ii iana-etc-20201019_1                         Unix /etc/services and /etc/protocols files
 ii iceauth-1.0.8_1                             ICE protocol utility
 ii icu-67.1_1                                  Robust and fully-featured Unicode libraries
