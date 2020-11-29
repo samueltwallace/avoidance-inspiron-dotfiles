@@ -16,10 +16,14 @@
 export PATH="/home/samueltwallace/.local/bin/:$PATH"
 source $HOME/.aliases
 
-# precmd() {
-# 	print '\n'
-# }
+ precmd() {
+ 	print '\n\n'
+ }
 
-PROMPT='%(?.%F{green}.%F{red})%B%n%b@%M:%~%f'$'\n''%(?.%F{green}.%F{red})%! @ %* '$'\U27A4%f '
+PROMPT='%(?.%F{green}.%F{red})%B%n%b@%M:%~%f'$'\n\n''%(?.%F{green}.%F{red})%! @ %* '$'\U27A4%f '
 
+# functions
 
+function search() {
+	firefox --search "$@" &
+}
