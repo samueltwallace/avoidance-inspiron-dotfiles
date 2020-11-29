@@ -1,4 +1,4 @@
-Fri Nov 27 12:42:15 CST 2020
+Sat Nov 28 21:22:58 CST 2020
 ii ImageMagick-7.0.10.43_1                     Package for display and interactive manipulation of images
 ii LuaJIT-2.1.0beta3_1                         Just-In-Time Compiler for Lua
 ii SDL2-2.0.12_1                               Simple DirectMedia Layer (version 2)
@@ -493,8 +493,8 @@ ii sxhkd-0.6.2_1                               Simple X HotKey Daemon
 ii tar-1.32_3                                  GNU tape archiver with remote magnetic tape support
 ii task-2.5.1_6                                Task Warrior command-line todo list manager
 ii texlive-bin-2020_3                          TeX Live Binary distribution through tl-install (newest version)
-ii texlive-core-2020.55416_1                   TeX Live - core texmf distribution
-ii texlive-fontsextra-2020.55407_1             TeX Live - All sorts of extra fonts
+ii texlive-core-2020.55416_2                   TeX Live - core texmf distribution
+ii texlive-fontsextra-2020.55407_2             TeX Live - All sorts of extra fonts
 ii texlive2020-bin-2020_3                      TeX Live Binary distribution through tl-install
 ii tiff-4.1.0_1                                Library and tools for reading and writing TIFF data files
 ii traceroute-2.1.0_3                          Traces the route taken by packets over an IPv4/IPv6 network
@@ -546,7 +546,7 @@ ii xconsole-1.0.7_2                            Monitor system console messages w
 ii xcursorgen-1.0.7_1                          X cursor generator
 ii xdg-dbus-proxy-0.1.2_1                      Filtering proxy for D-Bus connections
 ii xdg-user-dirs-0.17_1                        Tool to help manage user directories
-ii xdg-utils-1.1.3_1                           Tools to assist applications with various desktop integration tasks
+ii xdg-utils-1.1.3_2                           Tools to assist applications with various desktop integration tasks
 ii xdpyinfo-1.3.2_2                            Display information utility for X
 ii xev-1.2.4_1                                 Display X events
 ii xeyes-1.1.2_1                               Follow the mouse
