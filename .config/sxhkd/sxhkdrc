@@ -10,6 +10,9 @@ super + Return
 super + semicolon
 	rofi -show run
 
+super + w
+	rofi -show window	
+
 super + shift + e
 	$HOME/.config/rofi/ed.sh
 

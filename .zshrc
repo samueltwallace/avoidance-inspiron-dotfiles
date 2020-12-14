@@ -11,19 +11,25 @@
 
 (cat ~/.cache/wal/sequences &)
 
-#task list
 
 export PATH="/home/samueltwallace/.local/bin/:$PATH"
 source $HOME/.aliases
 
  precmd() {
- 	print '\n\n'
+ 	print '\n'
  }
 
-PROMPT='%(?.%F{green}.%F{red})%B%n%b@%M:%~%f'$'\n\n''%(?.%F{green}.%F{red})%! @ %* '$'\U27A4%f '
+PROMPT='%F{green}%B%n%b@%M:%~%f'$'\n\n''%(?.%F{green}.%F{red})%! @ %* '$'\U22EF%f '
 
 # functions
 
 function search() {
-	firefox --search "$@" &
+	firefox --search "$@"
+}
+
+function cz() {
+	local DIR="$(find **/ | fzf --reverse --height=15)"
+	if [[ -n "$DIR" ]]; then
+		cd $DIR && ls --color=auto -1
+	fi
 }

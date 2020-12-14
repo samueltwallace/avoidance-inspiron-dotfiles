@@ -1,15 +1,21 @@
 alias :q='exit'
 alias colorscheme='wal --preview'
+alias rando_bg='feh --bg-fill --randomize $(find $HOME/Pictures/**/*)'
 alias refresh='clear && exec $SHELL -l'
 alias topz='echo "    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+" && top -b -n 1 | fzf'
-alias ed='nvim -u $HOME/.config/nvim/general.vim'
+
+# xbps
 alias query='xbps-query -R -s'
 alias get='sudo xbps-install'
 alias remove='sudo xbps-remove'
+
+# Git
 alias config='git --git-dir=$HOME/repos/avoidance-inspiron-dotfiles --work-tree=$HOME'
 alias lss='ls -Ahl --color=auto'
-alias rando_bg='feh --bg-fill --randomize $(find $HOME/Pictures/**/*)'
+
+# Nvim
+alias ed='nvim -u $HOME/.config/nvim/general.vim $(fzf)'
 alias texed='nvim -u $HOME/.config/nvim/latex.vim'
 alias mded='nvim -u $HOME/.config/nvim/markdown.vim'
 alias ced='nvim -u $HOME/.config/nvim/clang.vim'
-alias cz='cd $(find **/ | fzf)'
+alias ged='nvim -u $HOME/.config/nvim/go.vim'
