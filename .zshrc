@@ -33,3 +33,11 @@ function cz() {
 		cd $DIR && ls --color=auto -1
 	fi
 }
+
+function ed() {
+	if [[ -n "$@" ]]; then
+		nvim -u $HOME/.config/nvim/general.vim $@
+	else
+		nvim -u $HOME/.config/nvim/general.vim $(fzf --reverse --height=15)
+	fi
+}

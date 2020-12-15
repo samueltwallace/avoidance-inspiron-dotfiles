@@ -14,7 +14,6 @@ alias config='git --git-dir=$HOME/repos/avoidance-inspiron-dotfiles --work-tree=
 alias lss='ls -Ahl --color=auto'
 
 # Nvim
-alias ed='nvim -u $HOME/.config/nvim/general.vim $(fzf)'
 alias texed='nvim -u $HOME/.config/nvim/latex.vim'
 alias mded='nvim -u $HOME/.config/nvim/markdown.vim'
 alias ced='nvim -u $HOME/.config/nvim/clang.vim'
